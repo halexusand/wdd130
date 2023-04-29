@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab&display=swap');
 :root {
     --primary-color: #201e50;
-    --secondary-color: #fCA65F;
-    --accent1-color: #FFFFFF;
+    --secondary-color: #FFFFFF;
+    --accent1-color: #fca65f;
     --accent2-color: #0096E0;
 
     --heading-font: 'permanent marker', serif;
     --paragraph-font: 'Roboto Slab-latin', serif;
-    --nav-background-color: #201e50;
-    --nav-link-color: #fCA65f; 
-    --nav-hover-link-color: #FFFFFF;
-    --nav-hover-background-color: #0096E0;
+
+    --nav-background-color: #0096e0;
+    --nav-link-color: #FFFFFF; 
+    --nav-hover-link-color: #fca65f;
+    --nav-hover-background-color: #201e50;
 }
 
 body {
-    font: 1em sans-serif;
+    font: 1em var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -49,8 +50,8 @@ nav a {
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 
-nav a:hover {
-    color: var(--nav-hover-link-color)
-    var(--nav-hover-background-color);
 }
