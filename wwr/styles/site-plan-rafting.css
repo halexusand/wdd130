@@ -6,12 +6,11 @@
     --accent2-color: #0096E0;
 
     --heading-font: 'permanent marker', serif;
-    --paragraph-font: 'Roboto Slab',serif;
-
+    --paragraph-font: 'Roboto Slab-latin', serif;
     --nav-background-color: #201e50;
-    --nav-link-color: #fca65f; 
+    --nav-link-color: #fCA65f; 
     --nav-hover-link-color: #FFFFFF;
-    --nav-hover-background-color: #0096e0;
+    --nav-hover-background-color: #0096E0;
 }
 
 body {
