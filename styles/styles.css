@@ -28,7 +28,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/*class selectors*/
+/* Class selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0,.1);
@@ -36,9 +36,9 @@ footer {
     background-color: #ddd;
     color: #000;
 }
-aside h2{
+aside h2 {
     position:absolute;
-    top: 47px;
-    left: 150px;
+    top: 310px;
+    left: 115px;
 }
 
