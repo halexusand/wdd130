@@ -25,11 +25,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-header{
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
 p{
     padding: 5px;
 }
@@ -54,7 +49,6 @@ nav a:hover{
     color: var(--nav-hover-link-color);
 
 }
-
 .hero {
     position: relative;
 }
@@ -65,18 +59,19 @@ nav a:hover{
 }
 .hero h1{
     position: absolute;
-    top: 80px;
-    left: 425px;
+    top: -20px;
+    left: 225px;
 }
 .hero article {
     position: absolute;
     max-width: 90%;
     height: auto;
-    top: 10px;
+    top: 40px;
     left: 0;
     right: 0;
     margin:0 auto;
     background-color: #0096E0;
+    opacity: 70%;
 
 }
 
