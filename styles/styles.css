@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 main {
-    max-width: 840px;
+   
 }
 aside {
     width: 20em;
@@ -39,8 +39,8 @@ footer {
 }
 aside h2 {
     position:absolute;
-    top: 310px;
-    left: 115px;
+    top: -8px;
+    left: 97px;
 }
 
 header, footer {
