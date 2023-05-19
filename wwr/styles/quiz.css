@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    color: rgb(0, 0, 0);
   }
 
   form {
@@ -9,4 +10,14 @@ body {
 
   h1 {
     margin-top: 0;
+    color: rgb(247, 103, 180);
   }
+
+  form{
+    color: rgb(0, 0, 0);
+  }
+
+  h2{
+    color: rgb(116, 50, 183);
+  }
+
