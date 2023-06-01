@@ -145,3 +145,35 @@ figcaption {
 h3{
     margin-top: -35%;
 }
+.home_hero {
+    position: relative;
+}
+.home_hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.home_hero h1{
+    position: absolute;
+    top: -20px;
+    left: 80px;
+    color: #ffffffcc;
+}
+.home_hero article {
+    position: absolute;
+    max-width: 90%;
+    height: auto;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    background-color: #eacebf;
+    opacity: 70%;
+
+}
+
+.home_hero article img{
+    float: right;
+    width: 300px;
+
+}
