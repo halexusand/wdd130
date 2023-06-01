@@ -16,9 +16,11 @@
 
 body {
     font-family: 1em var(--paragraph-font);
-    width: 960px;
+    max-width: 960px;
     height: 100%;
     padding: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p{
     padding: 5px;
+    margin: 0;
 }
 
 nav{
@@ -35,6 +38,9 @@ nav{
     font-size: 1.2rem;
     display: flex;
     list-style: none;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
     
 }
 
@@ -96,8 +102,7 @@ footer img{
 
 header{
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 150px auto;
+    display: flex;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
@@ -129,8 +134,8 @@ figure img{
 }
 
 figcaption {
-    background-color: #222;
-    color: #fff;
+    background-color: #fafafa;
+    color: #0d0101;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;}
@@ -140,43 +145,3 @@ figcaption {
 h3{
     margin-top: -35%;
 }
-    
-.trips{
-    width: 30%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    max-width: fit-content;
-}
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0,.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
-aside{
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.home_hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-
-}
-
-.home_hero h1{
-    position: absolute;
-    top: 20px;
-    left: 225px;}
-
